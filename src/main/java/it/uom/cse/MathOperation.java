@@ -29,7 +29,6 @@ public class MathOperation {
 
     }
 
-}
 
     public static int sumOfIntegers(int n) {
         int sum = 0;
