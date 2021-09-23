@@ -16,4 +16,8 @@ class MathOperationTest {
     void subtract() {
         assertEquals(MathOperation.subtract(2, 1), 1);
     }
+
+    @Test
+    void sumOfPrimes(){assertEquals(MathOperation.sumOfPrimes(11), 28);}
+
 }
