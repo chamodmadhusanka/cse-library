@@ -15,6 +15,7 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
+
     public static int sumOfPrimes(int n){
         boolean prime[]=new boolean[n + 1];
         Arrays.fill(prime, true);
@@ -33,4 +34,29 @@ public class MathOperation {
 
     }
 
+
+
+    public static int fib(int n){
+
+        if(n == 0){
+            return 0;
+        }
+        else if(n == 1){
+            return 1;
+        }
+
+        return fib(n - 1) + fib(n - 2);
+
+    }
+
+
+    public static int sumOfIntegers(int n) {
+        int sum = 0;
+        for (int i = 0; i <= n; i++) {
+            sum += i;
+        }
+        return sum;
+    }
+
 }
+

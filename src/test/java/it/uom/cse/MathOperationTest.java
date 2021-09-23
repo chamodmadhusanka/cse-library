@@ -20,4 +20,9 @@ class MathOperationTest {
     @Test
     void sumOfPrimes(){assertEquals(MathOperation.sumOfPrimes(11), 28);}
 
+    @Test
+    void fibonacci(){
+        assertEquals(MathOperation.fib(12), 144);
+    }
+
 }
