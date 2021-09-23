@@ -16,4 +16,9 @@ class MathOperationTest {
     void subtract() {
         assertEquals(MathOperation.subtract(2, 1), 1);
     }
+
+    @Test
+    void fibonacci(){
+        assertEquals(MathOperation.fib(12), 144);
+    }
 }
